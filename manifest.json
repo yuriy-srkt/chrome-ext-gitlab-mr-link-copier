@@ -1,0 +1,15 @@
+{
+  "name": "Gitlab code review link copier",
+  "version": "1.0.1",
+  "description": "Tiny util to copy link and and description to Gitlab Merge Request for code review notifications",
+  "manifest_version": 3,
+  "author": "Yuriy Sorokolat",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"] ,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
